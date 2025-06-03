@@ -1,8 +1,5 @@
-from enum import unique
-from Scripts.pywin32_postinstall import verbose
 from django.contrib.auth import get_user_model
 from django.db import models
-from django.forms import CharField
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
