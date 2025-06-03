@@ -11,4 +11,4 @@ class BlogPostSlugTest(TestCase):
         post = BlogPost(title=title)
         post.save()
         self.assertEqual(post.slug, slugify(title))
-
+# Définir ici les tests de l'application posts.
